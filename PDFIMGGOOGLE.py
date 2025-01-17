@@ -3,7 +3,7 @@ import PIL.Image
 import google.generativeai as genai
 from docx import Document
 
-genai.configure(api_key="insira key")
+genai.configure(api_key="AIzaSyBq2nc05mUMNpuyQMsW-j69L7Qtl-Chf0A")
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 image_path = "pano.jpg"
