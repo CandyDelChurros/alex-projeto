@@ -3,7 +3,7 @@ from flask import Flask, render_template, request, redirect, url_for
 import cv2
 from PIL import Image
 import google.generativeai as genai
-from docx import Document
+from docx import Document 
 
 # Configurar a API generativa
 genai.configure(api_key="insira key")
