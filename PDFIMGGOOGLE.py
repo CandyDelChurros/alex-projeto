@@ -7,7 +7,7 @@ from docx import Document
 
 app = Flask(__name__)
 
-genai.configure(api_key="AIzaSyAEYr9MEJ4aCLw6z_s9XHEUvtTmLnzLx3M")
+genai.configure(api_key="insira sua api key")
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 def process_image(image_path):
