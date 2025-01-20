@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversão de Arquivos para Docx</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <ul>
+                <li><a href="#">Imagem para Doc</a></li>
+                <li><a href="#">PDF para Doc</a></li>
+            </ul>
+        </header>
+
+        <main>
+            <div class="main-top">
+                <span>Imagem para Doc</span>
+                <p>Converta sua imagem com texto para um arquivo editável em doc.</p>
+            </div>
+
+            <div class="main-box">
+                <form method="POST" enctype="multipart/form-data">
+                    <label for="image" class="file-label">Selecione o arquivo de imagem:</label>
+                    <input type="file" name="image" id="image" accept="image/*" required>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+
+            {% if document_url %}
+                <div class="success-message">
+                    <h2>Documento Gerado com Sucesso</h2>
+                    <a href="{{ document_url }}" download="document.docx">Clique aqui para baixar o documento gerado</a>
+                </div>
+            {% endif %}
+        </main>
+    </div>
+</body>
+</html>
