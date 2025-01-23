@@ -10,7 +10,6 @@ configobj==5.0.9
 configparser==7.1.0
 etelemetry==0.3.1
 filelock==3.17.0
-fitz==0.0.1.dev2
 Flask==3.1.0
 google-ai-generativelanguage==0.6.10
 google-api-core==2.24.0

@@ -3,10 +3,10 @@ import PIL.Image
 import google.generativeai as genai
 from docx import Document
 
-genai.configure(api_key="INSIRA A KEY")
+genai.configure(api_key="KEY")
 model = genai.GenerativeModel("gemini-1.5-flash")
 
-image_path = "Captura2.png"
+image_path = "insira a imagem"
 image = cv2.imread(image_path)
 
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)

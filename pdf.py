@@ -1,6 +1,6 @@
 from docx import Document
 import PyPDF2
-import fitz  # PyMuPDF
+import fitz
 from PIL import Image
 import io
 import google.generativeai as genai
@@ -49,7 +49,7 @@ def pdf_to_word_or_images(pdf_file, word_file, output_folder):
             print("O PDF contém imagens. Iniciando a extração de imagens...")
             save_images_from_pdf(pdf_file, output_folder)
 
-            genai.configure(api_key="INSIRA A KEY")
+            genai.configure(api_key="KEY")
             model = genai.GenerativeModel("gemini-1.5-flash")
 
             doc = Document()
@@ -84,8 +84,8 @@ def pdf_to_word_or_images(pdf_file, word_file, output_folder):
     except Exception as e:
         print(f"Ocorreu um erro: {e}")
 
-pdf_file = "teste.pdf"  
-word_file = "editavel.docx"  
+pdf_file = "insira seu pdf.pdf"  
+word_file = "coloque o nome do doc.docx"  
 output_folder = "imagens_extraidas"  
 
 import os
