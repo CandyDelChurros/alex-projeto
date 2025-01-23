@@ -3,10 +3,10 @@ import PIL.Image
 import google.generativeai as genai
 from docx import Document
 
-genai.configure(api_key="AIzaSyBq2nc05mUMNpuyQMsW-j69L7Qtl-Chf0A")
+genai.configure(api_key="INSIRA A KEY")
 model = genai.GenerativeModel("gemini-1.5-flash")
 
-image_path = "pano.jpg"
+image_path = "Captura2.png"
 image = cv2.imread(image_path)
 
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
