@@ -13,8 +13,8 @@ google-auth==2.37.0
 google-auth-httplib2==0.2.0
 google-generativeai==0.8.3
 googleapis-common-protos==1.66.0
-grpcio==1.70.0
-grpcio-status==1.70.0
+grpcio
+grpcio-status
 httplib2==0.22.0
 idna==3.10
 itsdangerous==2.2.0
@@ -30,7 +30,7 @@ pyasn1==0.6.1
 pyasn1_modules==0.4.1
 pydantic==2.10.6
 pydantic_core==2.27.2
-PyMuPDF==1.25.2
+PyMuPDF
 pyparsing==3.2.1
 PyPDF2==3.0.1
 python-docx==1.1.2
