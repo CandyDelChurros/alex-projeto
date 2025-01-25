@@ -15,7 +15,7 @@ import io
 import re
 import cv2
 
-genai.configure(api_key="AIzaSyDqxdaEYCu3z727HXeJx3VRwyjeWkuV7e8")
+genai.configure(api_key="chave_aqui")
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 app = Flask(__name__, static_folder="static")
