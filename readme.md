@@ -54,10 +54,10 @@ code .
 
 6. Agora já dentro da aplicação teremos duas opções
 
-   a. Imagem para Documento
+   a. Imagem para Documento:
    Nesta opção teremos a funcionalidade de scanner imagens e então converter para um .docx editavel
 
-   b. PDF para Documento
+   b. PDF para Documento:
    Já nesta opção teremos a funcionalidade de scanner um arquivo PDF e então converte-lo para um .docx editavel
 
 7. Após selecionar uma das opções podemos então anexar o arquivo desejado e converte-lo
