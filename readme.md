@@ -1,5 +1,4 @@
 # Documentação PDF Scanner
-
 ## Instalação
 
 1. Faça um clone do repositorio atual
@@ -48,11 +47,31 @@ code .
 
 3. Com a extensão instalada podemos voltar a pasta e abrir o script app.py
 
-4. Com o Script aberto podemos abertar o atalho F5 e então executar o arquivo app.py
+## Gerando uma API GOOGLE
 
-5. Caso seja a primeira vez executando um arquivo com a extensão ele exibira algumas opções podemos escolher a primeira opção - Arquivo Python - e ele será executado
+1. Entre no site da Google Studio API pelo link: https://aistudio.google.com/app/apikey
 
-6. Agora já dentro da aplicação teremos duas opções
+2. Realize o login com sua conta google
+
+3. Caso apareça "It's Time to Build", aperte no GET API KEY
+
+4. Aceite os termos de uso
+
+5. Aperte Criar Chave de API
+
+6. Aperte em copiar
+
+7. Entre no arquivo app.py
+
+8. Insira Cole a chave da API nos parenteses na linha 18, onde está escrito chave_aqui genai.configure(api_key="chave_aqui")
+
+## Continuando a Execução 
+
+5. Com o Script aberto podemos abertar o atalho F5 e então executar o arquivo app.py
+
+6. Caso seja a primeira vez executando um arquivo com a extensão ele exibira algumas opções podemos escolher a primeira opção - Arquivo Python - e ele será executado
+
+7. Agora já dentro da aplicação teremos duas opções
 
    a. Imagem para Documento:
    Nesta opção teremos a funcionalidade de scanner imagens e então converter para um .docx editavel
@@ -60,6 +79,6 @@ code .
    b. PDF para Documento:
    Já nesta opção teremos a funcionalidade de scanner um arquivo PDF e então converte-lo para um .docx editavel
 
-7. Após selecionar uma das opções podemos então anexar o arquivo desejado e converte-lo
+8. Após selecionar uma das opções podemos então anexar o arquivo desejado e converte-lo
 
-8. Após convertido o arquivo .docx será baixado automaticamente e então podemos abri-lo para confirmar o conteudo extraido do documento que anexamos
+9. Após convertido o arquivo .docx será baixado automaticamente e então podemos abri-lo para confirmar o conteudo extraido do documento que anexamos
