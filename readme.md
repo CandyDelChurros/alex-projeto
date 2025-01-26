@@ -36,6 +36,14 @@ pip install -r requirements.txt
 
 6. Após instalar as dependencias podemos executar o projeto
 
+---
+
+Antes da Execução do Projeto devemos criar uma chave da api do Gemini no seguinte site
+
+https://aistudio.google.com/apikey
+
+E após criar a chave substituir a "api_key" na linha 18 do script app.py
+
 ## Execução
 
 1. Com as dependecias instaladas e o venv criado podemos executar o projeto, para isso primeiros podemos abrir o VsCode utilizando o seguinte comando
